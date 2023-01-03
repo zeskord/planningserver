@@ -1,7 +1,7 @@
 const enums = require("./enums")
 const Rooms = enums.Rooms
-User = require("./User")
 const RoomState = require("./RoomState")
+const User = require("./User")
 
 class MainApp {
 
