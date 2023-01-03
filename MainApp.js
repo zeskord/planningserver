@@ -93,7 +93,7 @@ class MainApp {
         var userIds = []
 
         function roomFilter(element, index, array) {
-            return (element.room === Room.Light)
+            return (element.room === Rooms.Light)
         }
         var users1 = this.users.filter(roomFilter)
         console.log(users1)
