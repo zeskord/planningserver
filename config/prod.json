@@ -1,0 +1,10 @@
+{
+  "useSsl": true,
+  "port": 443,
+  "sslOptions": {
+    "key": "/etc/letsencrypt/live/zeskord.ru/privkey.pem",
+    "cert": "/etc/letsencrypt/live/zeskord.ru/cert.pem",
+    "ca": "/etc/letsencrypt/live/zeskord.ru/chain.pem"
+  },
+  "clientPath": "/home/planningclient/build"
+}
